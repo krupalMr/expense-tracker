@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pocketwise
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    disk:
+      name: pocketwise-data
+      mountPath: /data
+      sizeGB: 1

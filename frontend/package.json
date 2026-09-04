@@ -1,0 +1,24 @@
+{
+  "name": "pocketwise-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "vite": "latest",
+    "vue": "latest",
+    "vuetify": "latest"
+  },
+  "devDependencies": {
+    "vite-plugin-vuetify": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
