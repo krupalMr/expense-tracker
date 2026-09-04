@@ -73,6 +73,8 @@ The included `render.yaml` is ready for Render:
 
 The free Render tier does not include persistent disks. Use the `starter` plan in `render.yaml` if entries must survive deploys and restarts. For a free demo deployment, remove the `plan` and `disk` entries, but SQLite data will be ephemeral.
 
+Railway is also supported through `railway.toml`. Create a Railway project from this GitHub repository, deploy the Dockerfile, and add a volume mounted at `/data` so the SQLite database persists. The service uses the Railway-provided `PORT` automatically.
+
 ## API
 
 - `GET /api/expenses`
